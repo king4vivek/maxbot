@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "echo $npm_package_version",
+    "release": "npm -v & node -v",
     "build": "node index.js"
   },
   "author": "",
